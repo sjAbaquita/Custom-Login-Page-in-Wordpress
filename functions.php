@@ -3,7 +3,7 @@
 //the stylesheet or styles for the login page
 function my_custom_login()
 {
-    echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/assets/css/custom-login-style.css" />';
+    echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/css/custom-login-style.css" />';
 }
 add_action('login_head', 'my_custom_login');
 

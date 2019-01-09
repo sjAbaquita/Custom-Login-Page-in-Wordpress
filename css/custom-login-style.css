@@ -1,0 +1,74 @@
+Body.login
+{
+    background:url(../images/preview/quotes-2.jpg)no-repeat center fixed;
+}
+
+#login h1 a {
+    background: url(../images/preview/p-1.png) no-repeat;
+    background-size: 89px;
+}
+#login .message{
+    background: rgba(1000, 1000, 1000, .3);
+    color: #fff;
+}
+
+.login form{
+    box-shadow:none;
+    padding:20px;
+}
+#login {
+    background: rgba(1000, 1000, 1000, .3);
+    margin: 50px auto;
+    padding: 40px 20px 10px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+#loginform{
+    background: transparent;
+}
+#loginform label{
+    color: #fff;
+    font-size: 14px;
+}
+#loginform .input{
+    background: transparent;
+    color: #fff;
+    border: solid 0.5px;
+    border-radius: 4px;
+}
+#loginform .input:focus{
+    border: solid 0.5px;
+    border-radius: 4px;
+    border-color: #007cb2;
+}
+#loginform .forgetmenot{
+    float:none;
+}
+
+#loginform p.submit{
+    margin-top:20px!important;
+    margin-bottom:0px!important;
+}
+.login.wp-core-ui .button-primary {
+    background: rgba(0, 127, 175, .2);
+    color: #fff;
+    border-color: transparent;
+    text-shadow: none;
+    float: none;
+    clear: both;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    height: auto;
+    font-size: 15px;
+}
+.login.wp-core-ui .button-primary:hover {
+    background: rgba(0, 100, 170, .4);
+    color: #ffffff;
+    border-color: rgba(0, 100, 170, .4);
+}
+
+p#backtoblog{
+    display: none;
+}

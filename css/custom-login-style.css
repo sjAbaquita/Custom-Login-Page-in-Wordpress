@@ -5,7 +5,8 @@ Description: A simple custom login page in wordpress.
 
 Body.login
 {
-    background:url(../images/preview/quotes-2.jpg)no-repeat center fixed; //the background of the login page
+    /*the background of the login page*/
+    background:url(../images/preview/quotes-2.jpg)no-repeat center fixed;
 }
 
 /*the logo of your login page*/
